@@ -13,6 +13,7 @@ if __name__== "__main__":
     s4 = string.punctuation
     # print(s4)
     plen = int(input("Enter password length\n"))
+    # since plen says it is a int() so no string should be input in plen.
     s = []
     s.extend(list(s1))
     s.extend(list(s2))
